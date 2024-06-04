@@ -12,7 +12,7 @@ const morgan = require("morgan");
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL
+    origin: "https://blog-app-1-81ed.onrender.com", // Replace with your frontend URL
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
